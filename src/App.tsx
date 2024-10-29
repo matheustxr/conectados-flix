@@ -101,7 +101,7 @@ function App() {
           </h2>
 
           <iframe
-            className="mx-auto mt-10 w-full h-[200px] md:max-w-[600px] md:h-[350px] lg:max-w-[700px] lg:h-[415px] xl:max-w-[1000px] xl:h-[515px]"
+            className="mx-auto px-5 mt-10 w-full h-[200px] md:max-w-[600px] md:h-[350px] lg:max-w-[700px] lg:h-[415px] xl:max-w-[1000px] xl:h-[515px]"
             src="https://www.youtube.com/embed/kPa7bsKwL-c?si=aNQxXABZbU_IqV3s"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -265,6 +265,10 @@ function App() {
 
           <CollapseFAQ />
         </section>
+
+        <footer className='w-[80%] mx-auto py-10 text-center border-t-2'>
+          © 2024 CONECTADOSPRIME - Todos os direitos reservados.
+        </footer>
       </main>
     </>
   )
