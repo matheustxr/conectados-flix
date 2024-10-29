@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 
-
 .panorama-slider .swiper-pagination {
     bottom: -10px;
     --swiper-pagination-bullet-inactive-color: #000000 !important;
     --swiper-pagination-color: #0A2472 !important;
 }
+
+
 
 .ant-collapse {
     background-color: transparent !important;

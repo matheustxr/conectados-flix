@@ -1,5 +1,14 @@
 import { useEffect } from "react";
 
+import brincadeiras from '../images/slide-1/brincadeiras.webp'
+import desenhosBiblicos from '../images/slide-1/desenhosBiblicos.webp'
+import historiasBiblibas from '../images/slide-1/historiasBiblibas.webp'
+import historiasEducativas from '../images/slide-1/historiasEducativas.webp'
+import historiasNarradas from '../images/slide-1/historiasNarradas.webp'
+import musicas from '../images/slide-1/musicas.webp'
+import pinkBlue from '../images/slide-1/pinkBlue.webp'
+import voceViu from '../images/slide-1/voceViu.webp'
+
 const Panorama = () => {
 	useEffect(() => {
 		// Adiciona o link CSS externo
@@ -40,56 +49,56 @@ const Panorama = () => {
 						<div className="swiper-slide">
 							<img
 								className="slide-image"
-								src="https://cdn.pixabay.com/photo/2023/07/19/12/16/car-8136751_1280.jpg"
+								src={brincadeiras}
 								alt=""
 							/>
 						</div>
 						<div className="swiper-slide">
 							<img
 								className="slide-image"
-								src="https://cdn.pixabay.com/photo/2023/03/22/07/52/lizard-7868932_1280.jpg"
+								src={desenhosBiblicos}
 								alt=""
 							/>
 						</div>
 						<div className="swiper-slide">
 							<img
 								className="slide-image"
-								src="https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg"
+								src={historiasBiblibas}
 								alt=""
 							/>
 						</div>
 						<div className="swiper-slide">
 							<img
 								className="slide-image"
-								src="https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg"
+								src={historiasEducativas}
 								alt=""
 							/>
 						</div>
 						<div className="swiper-slide">
 							<img
 								className="slide-image"
-								src="https://cdn.pixabay.com/photo/2016/05/18/10/52/buick-1400243_1280.jpg"
+								src={historiasNarradas}
 								alt=""
 							/>
 						</div>
 						<div className="swiper-slide">
 							<img
 								className="slide-image"
-								src="https://cdn.pixabay.com/photo/2023/03/27/08/53/woman-7880177_1280.jpg"
+								src={musicas}
 								alt=""
 							/>
 						</div>
 						<div className="swiper-slide">
 							<img
 								className="slide-image"
-								src="https://cdn.pixabay.com/photo/2019/08/08/23/33/car-4393990_1280.jpg"
+								src={pinkBlue}
 								alt=""
 							/>
 						</div>
 						<div className="swiper-slide">
 							<img
 								className="slide-image"
-								src="https://cdn.pixabay.com/photo/2019/09/04/02/52/forest-4450611_1280.jpg"
+								src={voceViu}
 								alt=""
 							/>
 						</div>

@@ -5,6 +5,12 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
+import conectadosMissao from '../images/slide-2/conectadosMissao.webp'
+import jogosExclusivos from '../images/slide-2/jogosExclusivos.webp'
+import podcast from '../images/slide-2/podcast.webp'
+import videoGames from '../images/slide-2/videoGames.webp'
+import voceViu from '../images/slide-2/voceViu.webp'
+
 export default function SliderConteudos() {
 	return (
 		<Swiper
@@ -23,19 +29,19 @@ export default function SliderConteudos() {
 			className='!w-full !pb-10'
 		>
 			<SwiperSlide>
-				<img src="https://via.placeholder.com/800x400?text=Image+1" alt="Slide 1" />
+				<img src={conectadosMissao} alt="Slide 1" />
 			</SwiperSlide>
 			<SwiperSlide>
-				<img src="https://via.placeholder.com/800x400?text=Image+2" alt="Slide 2" />
+				<img src={jogosExclusivos} alt="Slide 2" />
 			</SwiperSlide>
 			<SwiperSlide>
-				<img src="https://via.placeholder.com/800x400?text=Image+3" alt="Slide 3" />
+				<img src={podcast} alt="Slide 3" />
 			</SwiperSlide>
 			<SwiperSlide>
-				<img src="https://via.placeholder.com/800x400?text=Image+4" alt="Slide 4" />
+				<img src={videoGames} alt="Slide 4" />
 			</SwiperSlide>
 			<SwiperSlide>
-				<img src="https://via.placeholder.com/800x400?text=Image+5" alt="Slide 5" />
+				<img src={voceViu} alt="Slide 5" />
 			</SwiperSlide>
 			</Swiper>
 	)
