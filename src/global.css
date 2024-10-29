@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.panorama-slider .swiper-pagination {
+    bottom: -10px;
+    --swiper-pagination-bullet-inactive-color: #000000 !important;
+    --swiper-pagination-color: #0A2472 !important;
+}
+
+
+
+.ant-collapse {
+    background-color: transparent !important;
+}
+
+.ant-collapse-header {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.ant-collapse-content{
+    color: #fff !important;
+    font-size: 16px;
+    background-color: transparent !important;
+}
+
+@media screen and (min-width:1024px) {
+    .swiper-planos .swiper-wrapper{
+        justify-content: center;
+    }
+
+    .swiper-planos .swiper-slide{
+        width: fit-content !important;
+    }
+}
+
