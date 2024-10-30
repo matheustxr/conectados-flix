@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 import brincadeiras from '../images/slide-1/brincadeiras.webp'
 import desenhosBiblicos from '../images/slide-1/desenhosBiblicos.webp'
-import historiasBiblibas from '../images/slide-1/historiasBiblibas.webp'
+import historiasBiblicas from '../images/slide-1/historiasBiblicas.webp'
 import historiasEducativas from '../images/slide-1/historiasEducativas.webp'
 import historiasNarradas from '../images/slide-1/historiasNarradas.webp'
 import musicas from '../images/slide-1/musicas.webp'
@@ -46,58 +46,58 @@ const Panorama = () => {
 			<div className="panorama-slider">
 				<div className="swiper MySwiper">
 					<div className="swiper-wrapper">
-						<div className="swiper-slide">
+						<div className="swiper-slide !h-fit">
 							<img
-								className="slide-image"
+								className="slide-image !h-auto"
 								src={brincadeiras}
 								alt=""
 							/>
 						</div>
-						<div className="swiper-slide">
+						<div className="swiper-slide !h-fit">
 							<img
-								className="slide-image"
+								className="slide-image !h-auto"
 								src={desenhosBiblicos}
 								alt=""
 							/>
 						</div>
-						<div className="swiper-slide">
+						<div className="swiper-slide !h-fit">
 							<img
-								className="slide-image"
-								src={historiasBiblibas}
+								className="slide-image !h-auto"
+								src={historiasBiblicas}
 								alt=""
 							/>
 						</div>
-						<div className="swiper-slide">
+						<div className="swiper-slide !h-fit">
 							<img
-								className="slide-image"
+								className="slide-image !h-auto"
 								src={historiasEducativas}
 								alt=""
 							/>
 						</div>
-						<div className="swiper-slide">
+						<div className="swiper-slide !h-fit">
 							<img
-								className="slide-image"
+								className="slide-image !h-auto"
 								src={historiasNarradas}
 								alt=""
 							/>
 						</div>
-						<div className="swiper-slide">
+						<div className="swiper-slide !h-fit">
 							<img
-								className="slide-image"
+								className="slide-image !h-auto"
 								src={musicas}
 								alt=""
 							/>
 						</div>
-						<div className="swiper-slide">
+						<div className="swiper-slide !h-fit">
 							<img
-								className="slide-image"
+								className="slide-image !h-auto"
 								src={pinkBlue}
 								alt=""
 							/>
 						</div>
-						<div className="swiper-slide">
+						<div className="swiper-slide !h-fit">
 							<img
-								className="slide-image"
+								className="slide-image !h-auto"
 								src={voceViu}
 								alt=""
 							/>

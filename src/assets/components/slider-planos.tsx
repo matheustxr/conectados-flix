@@ -12,6 +12,11 @@ export default function SliderPlanos() {
 			spaceBetween={10}
 			breakpoints={{
 				768: {
+					slidesPerView: 2,
+					centeredSlides: true,
+					initialSlide: 0,
+				},
+				1024: {
 					slidesPerView: 3,
 					spaceBetween: 10,
 					centeredSlides: true,
@@ -26,17 +31,17 @@ export default function SliderPlanos() {
 			}}
 			className="swiper-planos"
 		>
-			<SwiperSlide>
+			<SwiperSlide className=''>
 				<div className='w-full max-w-[300px] min-h-[377px]  text-black bg-white rounded-xl'>
 					<div className='px-5 py-5 flex justify-center items-center bg-[#0a2472] rounded-t-xl'>
 						<span className='text-xl font-extrabold uppercase text-white'>
-							plano básico
+							12 meses
 						</span>
 					</div>
 					<div className='px-5 pt-5 pb-7'>
 						<div className='flex justify-center'>
 							<span className='text-5xl md:text-[44px] lg:text-5xl font-bold text-[#0a2472] '>
-								R$ 27,90
+								R$ 25,90
 							</span>
 						</div>
 						
@@ -65,13 +70,13 @@ export default function SliderPlanos() {
 				<div className='w-full max-w-[300px] min-h-[377px]  text-black bg-white rounded-xl'>
 					<div className='px-5 py-5 flex justify-center items-center bg-[#0a2472] rounded-t-xl'>
 						<span className='text-xl font-extrabold uppercase text-white'>
-						Plano Família
+						6 meses
 						</span>
 					</div>
 					<div className='px-5 pt-5 pb-7'>
 						<div className='flex justify-center'>
 							<span className='text-5xl md:text-[44px] lg:text-5xl font-bold text-[#0a2472] '>
-								R$ 27,90
+								R$ 30,90
 							</span>
 						</div>
 						
@@ -100,13 +105,13 @@ export default function SliderPlanos() {
 				<div className='w-full max-w-[300px] min-h-[377px]  text-black bg-white rounded-xl'>
 					<div className='px-5 py-5 flex justify-center items-center bg-[#0a2472] rounded-t-xl'>
 						<span className='text-xl font-extrabold uppercase text-white'>
-						Plano Premium
+						mensal <span className='text-sm'>(PIX)</span>
 						</span>
 					</div>
 					<div className='px-5 pt-5 pb-7'>
 						<div className='flex justify-center'>
 							<span className='text-5xl md:text-[44px] lg:text-5xl font-bold text-[#0a2472] '>
-								R$ 27,90
+								R$ 34,90
 							</span>
 						</div>
 						

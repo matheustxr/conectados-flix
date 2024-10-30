@@ -13,7 +13,7 @@ import devices from './assets/animations/devices.json'
 import banner from './assets/images/banner.webp'
 import logo from './assets/images/logo.png'
 import garantia from './assets/images/garantia.webp'
-import jogos from './assets/images/jogos.png'
+import jogos from './assets/images/jogos.webp'
 
 import 'aos/dist/aos.css';
 
@@ -44,12 +44,12 @@ function App() {
                 alt="logo"
                 className='hidden lg:block lg:w-2/3 mx-auto'
               />
-              <h1 className='text-4xl md:text-5xl font-bold uppercase'>
-                 Sua família mais próxima de Deus {/* Uma plataforma exlusiva e composta por famílias de youtubers cristãos*/}
+              <h1 className='text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-bold uppercase text-center lg:text-start'>
+                Uma plataforma exclusiva e composta por famílias de youtubers cristãos
               </h1>
 
-              <span className='text-lg '>
-                Uma plataforma exlusiva e composta por famílias de youtubers cristãos. {/*Conteúdos com Linguagem e Imagem Apropriada para Seu Filho  */}
+              <span className='text-lg text-center lg:text-start'>
+                Conteúdos com Linguagem e Imagem Apropriada para seu fiilho.
               </span>
 
               <Button />
@@ -87,21 +87,17 @@ function App() {
           </div>
           
           <SliderEpisodios />
-
-          {/* <div className='mt5 flex justify-center animate-bounce  '>
-            <Button />
-          </div> */}
         </section>
 
         
         {/* VIDEO APRESENTAÇÃO */}
-        <section>
+        <section className='px-5'>
           <h2 className='text-3xl md:text-4xl xl:text-5xl font-semibold text-center'>
             Uma rápida prévia do que você vai encontrar
           </h2>
 
           <iframe
-            className="mx-auto px-5 mt-10 w-full h-[200px] md:max-w-[600px] md:h-[350px] lg:max-w-[700px] lg:h-[415px] xl:max-w-[1000px] xl:h-[515px]"
+            className="mx-auto mt-10 w-full h-[200px] md:max-w-[600px] md:h-[350px] lg:max-w-[700px] lg:h-[415px] xl:max-w-[1000px] xl:h-[515px]"
             src="https://www.youtube.com/embed/kPa7bsKwL-c?si=aNQxXABZbU_IqV3s"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -212,7 +208,7 @@ function App() {
         </section>
 
         {/* GARANTIA */}
-        <section className="container mx-auto pt-10 px-5 md:px-10 lg:px-14 2xl:px-20 flex flex-col lg:flex-row">
+        <section className="container mx-auto pt-10 px-5 md:px-10 lg:px-14 2xl:px-20 flex flex-col md:flex-row">
           <div 
             className="w-full flex flex-col justify-center gap-5"
             data-aos="zoom-in-up"
@@ -226,22 +222,19 @@ function App() {
 
             <ul className='pl-5 list-disc'>
               <li>
-                Se você não estiver satisfeito com o conteúdo nos primeiros 7 dias, basta cancelar sua assinatura e devolveremos o valor integral;
+                Se você não estiver satisfeito com o conteúdo nos primeiros 7 dias, basta cancelar sua assinatural;
               </li>
               <li>
                 Cancele sua assinatura a qualquer momento de forma rápida e sem complicações, diretamente no painel de controle da sua conta
               </li>
-              <li>
-                Mesmo se decidir cancelar, você terá acesso total aos nossos conteúdos durante os 7 primeiros dias
-              </li>
             </ul>
           </div>
 
-          <div className='w-full flex justify-center items-center'>
+          <div className='mt-5 md:mt-0 w-full flex justify-center items-center'>
             <img 
               src={garantia}
               alt="imagem selo de garantia"
-              className='w-full max-w-[400px] animate-pulse'
+              className='w-auto max-h-[400px] animate-pulse'
             />
           </div>
         </section>
