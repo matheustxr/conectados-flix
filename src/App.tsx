@@ -45,7 +45,7 @@ function App() {
                 className='hidden lg:block lg:w-2/3 mx-auto'
               />
               <h1 className='text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-bold uppercase text-center lg:text-start'>
-                Uma plataforma exclusiva e composta por famílias de youtubers cristãos
+                Uma plataforma exclusiva composta por famílias de youtubers cristãos
               </h1>
 
               <span className='text-lg text-center lg:text-start'>

@@ -48,8 +48,9 @@ export default function SliderPlanos() {
 						<hr className='my-5 border-black'/>
 						
 						<ul className='pl-5 list-disc'>
-							<li>Acesso em 1 dispositivo;</li>
-							<li>Conteúdos exclusivos de histórias bíblicas, músicas, vídeos de brincadeiras e mais;</li>
+							<li>Acesso em 3 dispositivo simultâneos;</li>
+							<li>Acesso a todos os vídeos da plataforma;</li>
+							<li><strong>Bônus:</strong> Acesso a jogos onlines exclusivos dentro da plataforma.</li>
 						</ul>
 
 						<div className='mt-10 flex justify-center'>
@@ -83,8 +84,9 @@ export default function SliderPlanos() {
 						<hr className='my-5 border-black'/>
 						
 						<ul className='pl-5 list-disc'>
-							<li>Acesso em até 3 dispositivos simultâneos;</li>
-							<li>Todos os benefícios do Plano Essencial;</li>
+							<li>Acesso em 2 dispositivo simultâneos;</li>
+							<li>Acesso a todos os vídeos da plataforma;</li>
+							<li><strong>Bônus:</strong> Acesso a jogos onlines exclusivos dentro da plataforma.</li>
 						</ul>
 
 						<div className='mt-10 flex justify-center'>
@@ -118,9 +120,9 @@ export default function SliderPlanos() {
 						<hr className='my-5 border-black'/>
 						
 						<ul className='pl-5 list-disc'>
-							<li>Acesso em até 5 dispositivos simultâneos;</li>
-							<li>Acesso a conteúdos exclusivos e novos lançamentos;</li>
-							<li>Função de download para assistir offline</li>
+							<li>Acesso em 2 dispositivo simultâneos;</li>
+							<li>Acesso a todos os vídeos da plataforma;</li>
+							<li><strong>Bônus:</strong> Acesso a jogos onlines exclusivos dentro da plataforma.</li>
 						</ul>
 
 						<div className='mt-10 flex justify-center'>
